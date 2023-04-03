@@ -103,6 +103,7 @@ footer {
   height: 20dvh;
   background-color: var(--header-background-color);
   border: 1px solid black;
+  overflow: hidden;
 }
 a img:hover {
   transform: scale(1.04);
