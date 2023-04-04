@@ -63,8 +63,8 @@ nav {
 }
 nav img {
   display: none;
-  height: 3dvi;
-  width: 3dvi;
+  height: 40px;
+  width: 40px;
 }
 nav ul {
   font-weight: bolder;
@@ -72,6 +72,7 @@ nav ul {
 nav ul li {
   list-style: none;
   white-space: nowrap;
+  margin: 0 5dvi;
 }
 p {
   line-height: 2rem;
@@ -141,9 +142,9 @@ a:hover {
   display: inline-flexbox;
 }
 .contact-list li {
-    padding: 0 2dvi;
-    font-size: 2dvi;
-  }
+  padding: 0 2dvi;
+  font-size: 2dvi;
+}
 /* ID selector */
 /*TODO */
 #project-list img {
@@ -182,12 +183,16 @@ a:hover {
 }
 /* @media selectors */
 @media only screen and (max-width: 600px) {
-    nav img {
+  nav img {
     display: flex;
+    margin: 0 2dvi;
   }
   .hidden {
     display: none;
-  } 
+  }
+  nav ul li {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -203,18 +208,4 @@ a:hover {
   main {
     max-width: 90%;
   }
-   header, footer{
-   /* width:100vw;*/
-  }
-  /* testing */
-  #project-list{
-   /*left: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  max-width: 100vw;
-  position: relative;
-  right: 50%;
-  width: 100vw; */
-  }
-
 }
