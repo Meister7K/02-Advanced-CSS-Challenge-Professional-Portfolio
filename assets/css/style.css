@@ -105,10 +105,11 @@ footer span {
 footer {
   display: flex;
   width: 100%;
-  height: 20dvh;
+  height: fit-content;
   background-color: var(--header-background-color);
   border: 1px solid black;
   overflow: hidden;
+  padding-bottom: 5dvh;
 }
 a img:hover {
   transform: scale(1.04);
