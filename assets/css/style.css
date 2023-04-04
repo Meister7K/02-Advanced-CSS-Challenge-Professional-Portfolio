@@ -141,12 +141,12 @@ a:hover {
   flex-grow: 1;
   display: inline-flexbox;
 }
-.contact-list li, .contact-list a {
+.contact-list li,
+.contact-list a {
   padding: 0 2dvi;
   font-size: 1rem;
 }
 /* ID selector */
-/*TODO */
 #project-list img {
   width: 100%;
   height: auto;
