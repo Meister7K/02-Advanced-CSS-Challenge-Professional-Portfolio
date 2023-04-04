@@ -27,16 +27,16 @@ h1 {
   text-transform: uppercase;
   padding-left: 1dvi;
   width: 100%;
-  font-size: 5dvi;
+  font-size: 4rem;
 }
 h2 {
-  font-size: 4dvi;
+  font-size: 3rem;
 }
 h3 {
-  font-size: 3dvi;
+  font-size: 2rem;
 }
 h4 {
-  font-size: 2.5dvi;
+  font-size: 1rem;
 }
 header {
   display: flex;
@@ -76,7 +76,7 @@ nav ul li {
 }
 p {
   line-height: 2rem;
-  font-size: 1.5i;
+  font-size: 1rem;
 }
 
 li {
@@ -107,9 +107,6 @@ section {
   width: 66%;
   float: right;
 }
-footer span {
-  font-weight: bolder;
-}
 footer {
   display: flex;
   width: 100%;
@@ -118,6 +115,9 @@ footer {
   border: 1px solid black;
   overflow: hidden;
   padding-bottom: 5dvi;
+}
+footer span {
+  font-weight: bolder;
 }
 a img:hover {
   transform: scale(1.04);
@@ -141,9 +141,9 @@ a:hover {
   flex-grow: 1;
   display: inline-flexbox;
 }
-.contact-list li {
+.contact-list li, .contact-list a {
   padding: 0 2dvi;
-  font-size: 2dvi;
+  font-size: 1rem;
 }
 /* ID selector */
 /*TODO */
