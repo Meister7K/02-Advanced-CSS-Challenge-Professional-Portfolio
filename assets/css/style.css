@@ -57,7 +57,7 @@ h4 {
 nav {
   display: flex;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
   width: 100%;
 }
 /* TODO fix li  */
@@ -87,7 +87,7 @@ img {
   border: 1px solid black;
   box-shadow: var(--box-shadow);
   border-radius: 15%;
-  filter: grayscale(.8) contrast(1) brightness(1);
+  filter: grayscale(0.8) contrast(1) brightness(1);
 }
 aside {
   float: left;
