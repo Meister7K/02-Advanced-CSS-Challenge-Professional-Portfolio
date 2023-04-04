@@ -7,12 +7,12 @@
 }
 /* Element selectors */
 * {
-  margin: 0% auto;
+  margin: 0%;
   padding: 0%;
   /*TODO remove border */
   /* border: 1px solid; */
   box-sizing: border-box;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 body {
   background-color: var(--body-background-color);
@@ -30,44 +30,52 @@ h1 {
   font-size: 5dvh;
 }
 h2 {
-    font-size: 4dvh;
+  font-size: 4dvh;
 }
 h3 {
-    font-size: 3dvh;
+  font-size: 3dvh;
 }
-h4{
-    font-size: 2dvh;
+h4 {
+  font-size: 2dvh;
 }
 header {
-  display: flexbox;
+  display: flex;
   background-color: var(--header-background-color);
   box-shadow: var(--dark-box-shadow);
   width: 100%;
-  height: 15dvh
+  height: 15dvh;
   border: 1px solid black;
 }
-
-h1, h2, h3, h4 {
-    padding-bottom: 2dvh;
-    padding-top: 2dvh;
-    text-align:center;
+h1,
+h2,
+h3,
+h4 {
+  padding-bottom: 2dvh;
+  padding-top: 2dvh;
+  text-align: center;
 }
 nav {
-    display: flex;
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
   width: 100%;
   /* height: 10dvh; */
 }
-p{
-    line-height: 2rem;
-}
 /* TODO fix li  */
-nav li {
-  /* display: inline-flex; */
-  justify-items: center;
-  justify-content: space-between;
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
   font-weight: bolder;
 }
+nav ul li {
+  list-style: none;
+  white-space: nowrap;
+}
+p {
+  line-height: 2rem;
+}
+
 li {
   display: inline-flex;
   padding: 1dvh;
@@ -79,7 +87,7 @@ a {
 img {
   image-rendering: optimizeQuality;
   width: 100%;
-  height:auto;
+  height: auto;
   border: 1px solid black;
   box-shadow: var(--box-shadow);
   border-radius: 15%;
@@ -94,8 +102,8 @@ section {
   width: 66%;
   float: right;
 }
-span {
-    font-weight: bolder;
+footer span {
+  font-weight: bolder;
 }
 footer {
   display: flex;
@@ -118,8 +126,8 @@ a img:focus {
   color: black;
 }
 a:hover {
-    text-shadow: var(--light-box-shadow);
-    transition-duration: 0.5s;
+  text-shadow: var(--light-box-shadow);
+  transition-duration: 0.5s;
 }
 /* class selectior */
 .container {
@@ -139,6 +147,7 @@ a:hover {
   justify-content: center;
 }
 #headshot {
+  margin: 0 auto;
   display: block;
   border-radius: 50%;
   max-width: 80%;
@@ -155,20 +164,14 @@ a:hover {
 }
 #contact-info {
   padding: 0 1dvh;
-text-align: center;
+  text-align: center;
 }
-#contact-info ul{ 
-    display: inline-block;
-   display:inline;
+#contact-info ul {
+  display: inline-block;
+  display: inline;
 }
 #contact-list li {
-    padding: 0 2dvm;
-
-}
-
-#linkedin-logo{
-    width: 5dvh;
-    height: auto;
+  padding: 0 2dvm;
 }
 /* @media selectors */
 @media only screen and (max-width: 768px) {
@@ -180,6 +183,7 @@ text-align: center;
   }
 }
 @media only screen and (min-width: 1080px) {
-   main{ max-width: 90%;
-   }
+  main {
+    max-width: 90%;
+  }
 }
