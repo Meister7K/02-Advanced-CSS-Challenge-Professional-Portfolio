@@ -13,6 +13,7 @@
 
 ### screenshot 
 ![screenshot](./assets/photos/Portfolio-project-readme-capture.png)
+![screenshot](./assets/photos/02-Advanced-CSS-Challenge-Professional-Portfolio%20mobile.png)
 
 ## Credits 
 
