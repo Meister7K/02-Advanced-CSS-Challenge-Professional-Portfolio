@@ -14,3 +14,6 @@
 ### screenshot 
 ![screenshot](./assets/photos/Portfolio-project-readme-capture.png)
 
+## Credits 
+
+- Freepik (nav menue icons)[<a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by Freepik - Flaticon</a>]

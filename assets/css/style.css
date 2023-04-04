@@ -36,7 +36,7 @@ h3 {
   font-size: 3dvh;
 }
 h4 {
-  font-size: 2dvh;
+  font-size: 2.5dvh;
 }
 header {
   display: flex;
@@ -61,7 +61,11 @@ nav {
   align-items: center;
   width: 100%;
 }
-/* TODO fix li  */
+nav img {
+  display: none;
+  height: 3dvh;
+  width: 3dvh;
+}
 nav ul {
   font-weight: bolder;
 }
@@ -71,6 +75,7 @@ nav ul li {
 }
 p {
   line-height: 2rem;
+  font-size: 1.5dvh;
 }
 
 li {
@@ -173,6 +178,15 @@ a:hover {
   padding: 0 2dvm;
 }
 /* @media selectors */
+@media only screen and (max-width: 600px) {
+    nav img {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  } 
+}
+
 @media only screen and (max-width: 768px) {
   aside {
     width: 100%;
@@ -181,7 +195,8 @@ a:hover {
     width: 100%;
   }
 }
-@media only screen and (min-width: 1080px) {
+
+@media only screen and (min-width: 1200px) {
   main {
     max-width: 90%;
   }
