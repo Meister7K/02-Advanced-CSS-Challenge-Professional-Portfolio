@@ -43,8 +43,9 @@ header {
   background-color: var(--header-background-color);
   box-shadow: var(--dark-box-shadow);
   width: 100%;
-  height: 15dvh;
+  height: fit-content;
   border: 1px solid black;
+  padding-bottom: 1dvh;
 }
 h1,
 h2,
