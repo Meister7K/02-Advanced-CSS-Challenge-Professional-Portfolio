@@ -1,4 +1,6 @@
 /* root variables */
+@font-face {
+}
 :root {
   --body-background-color: rgb(150, 150, 150);
   --header-background-color: rgb(122, 122, 122);
@@ -12,7 +14,7 @@
   /*TODO remove border */
   /* border: 1px solid; */
   box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body {
   background-color: var(--body-background-color);
